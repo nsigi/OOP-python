@@ -1,0 +1,9 @@
+'''H = np.linalg.inv(H)
+
+        dkx = sum_xy + sum_xx - sum_xz
+        dky = sum_yy + sum_xy - sum_yz
+        db = sum_y + sum_x - sum_z
+
+        return 1.0 - (H[0][0] * dkx + H[0][1] * dky + H[0][2] * db), \
+               1.0 - (H[1][0] * dkx + H[1][1] * dky + H[1][2] * db),\
+                   - (H[2][0] * dkx + H[2][1] * dky + H[2][2] * db)'''
